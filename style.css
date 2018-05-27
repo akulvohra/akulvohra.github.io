@@ -358,7 +358,7 @@ section h1 {
       }
 
       .projects p{
-        font-size: 14px;
+        font-size: 13px;
         line-height: 1.3;
       }
 
@@ -399,7 +399,6 @@ section h1 {
 @media only screen and (max-width: 522px) {
   .projects img{
     width: 520px;
-    height: 259px ;
     margin-bottom: 10px;
     }
 }
