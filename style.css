@@ -88,3 +88,12 @@ p {
 #big{
 	font-size: 20px;
 }
+
+.link {
+	display: inline-block;
+	margin-left: 10px;
+}
+
+.link-items {
+	align-items: center;
+}
