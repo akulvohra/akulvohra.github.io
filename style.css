@@ -7,11 +7,13 @@ body, input {
 }
 
 .main {
-  position: absolute;
+  position: center;
   width: 530px;
   left: 0;
-  top: 0;
-  padding: 45px 45px;
+  padding-top:20px;
+  padding-bottom: 24px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .main img {
