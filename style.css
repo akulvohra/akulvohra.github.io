@@ -17,9 +17,11 @@ body, input {
 }
 
 .main img {
-  width: 100%;
-  margin: 0 0 18px;
-  border-radius: 12px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  padding-left: 110px;
+  padding-right: 10px;
 }
 
 .main .hero {
@@ -143,6 +145,7 @@ a.section:hover span.slide {
 
 .title {
 	font-size: 30px;
+  text-align: left;
 }
 
 .link {
@@ -160,4 +163,12 @@ p, h2, h1{
 
 .link{
 	color: #076edf;
+}
+
+img{
+  float: left;
+}
+
+#top {
+  padding-top: 12px;
 }
