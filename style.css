@@ -10,8 +10,8 @@ body, input {
   position: center;
   width: 530px;
   left: 0;
-  padding-top:20px;
-  padding-bottom: 24px;
+  padding-top: -10px;
+  padding-bottom: 30px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -22,6 +22,7 @@ body, input {
   display: block;
   padding-left: 110px;
   padding-right: 10px;
+  padding-top: -10px;
 }
 
 .main .hero {
@@ -62,9 +63,15 @@ p {
 
 p.callout {
   margin: 0 0 40px;
-  border-radius: 12px;
-  text-align: center;
-  background-color: #dae6fd;
+  border-radius: 10px;
+  text-align: left;
+  background-color: #cfd8dc;
+  color: black;
+  text-align: left;
+  width: 530px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 20px;
 }
 
 p.section {
@@ -146,6 +153,7 @@ a.section:hover span.slide {
 .title {
 	font-size: 30px;
   text-align: left;
+  padding-top: 17px;
 }
 
 .link {
