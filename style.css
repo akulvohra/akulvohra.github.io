@@ -1,3 +1,5 @@
+ @import url("https://use.typekit.net/vzf2fex.css");
+
 body, input {
   color: #333;
   font-family: 'proxima-nova', 'Helvetica Neue', Helvetica, Arial, sans-serif;
@@ -106,7 +108,7 @@ a:not(.hero) {
   outline: none;
 }
 
-a:not(.hero):hover {
+a:not(.back):hover {
   color: #53a2fa;
 }
 
@@ -165,8 +167,15 @@ html, body{
 	background-color: white;
 }
 
-p, h2, h1{
+p, h2, h1, a{
 	color: #424242;
+  font-family: acumin-pro, sans-serif;
+
+font-style: normal;
+}
+
+h2, h1 {
+  font-weight: 600;
 }
 
 .link{
@@ -178,5 +187,26 @@ img{
 }
 
 #top {
+  padding-top: 10px;
+}
+
+.blog{
+  padding-top: 15px;
+  font-size: 30px;
+  text-align: left;
+}
+
+.back{
+    height: 100px;
+    Background-color: #fff;
+  background:black;
+  text-decoration: none;
+}
+
+.backp{
+  color: white;
+}
+
+.blogtitle{
   padding-top: 10px;
 }
