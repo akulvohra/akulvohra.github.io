@@ -1,9 +1,9 @@
-@import url('https://fonts.googleapis.com/css?family=Tajawal&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
 
 body, input {
   color: #333;
-  font-family: 'Tajawal', sans-serif;
-  -webkit-font-smoothing: antialiased;
+font-family: 'Roboto', sans-serif;
+	-webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
 }
