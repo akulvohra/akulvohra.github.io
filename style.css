@@ -44,12 +44,10 @@ h1{
 }
 p {
   font-size: 20px;
-  padding-top: 12px;
-  padding-bottom: 17px;
 }
 
 h2 {
-  font-size: 23px;
+  font-size: 24px;
 }
 
 li, h2, ul {
@@ -57,9 +55,5 @@ li, h2, ul {
 }
 
 br {
-         line-height: 200%;
-      }
-
-ul {
-  padding-top: 1px;
+  line-height: 2px;
 }
