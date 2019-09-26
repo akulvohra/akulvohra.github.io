@@ -4,6 +4,12 @@ body, input {
   -webkit-text-size-adjust: 100%;
   font-family: neue-haas-grotesk-display, sans-serif;
 font-style: normal;
+text-transform: none; // mac ff fix
+-webkit-font-smoothing: antialiased; // safari mac nicer
+-moz-osx-font-smoothing: grayscale; // fix fatty ff on mac
+-webkit-font-smoothing: subpixel-antialiased !important; //more fatty in safari
+text-rendering: geometricPrecision !important; //more fatty in safari
+
 
 }
 
