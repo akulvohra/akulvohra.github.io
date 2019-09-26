@@ -1,11 +1,10 @@
 
 body, input {
   color: white;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
   font-family: neue-haas-grotesk-display, sans-serif;
-font-style: normal;
+font-style: normal
+
 }
 
 body, html {
