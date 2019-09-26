@@ -2,12 +2,8 @@
 body, input {
   color: white;
   -webkit-text-size-adjust: 100%;
-  font-family: neue-haas-grotesk-display, sans-serif;
-font-style: normal;
-text-transform: none; // mac ff fix
--webkit-font-smoothing: subpixel-antialiased;
--webkit-text-stroke:1px transparent;
--moz-osx-font-smoothing: grayscale; // fix fatty ff on ma
+  font-family: rubik, sans-serif;
+  font-style: normal;
 }
 
 body, html {
@@ -55,7 +51,7 @@ body, html {
 
 h1{
   font-size: 35px;
-  font-weight: 800;
+  font-weight: 900;
 }
 p {
   font-size: 20px;
@@ -65,7 +61,7 @@ p {
 
 h2 {
   font-size: 24px;
-  font-weight: 700;
+  font-weight: 600;
 
 }
 
