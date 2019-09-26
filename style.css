@@ -1,18 +1,23 @@
 
 body, input {
-  color: #333;
+  color: white;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
+  font-family: neue-haas-grotesk-display, sans-serif;
+font-style: normal;
+}
+
+body, html {
+  background-color: black;
 }
 
 .main {
-  position: center;
-  width: 530px;
+  position: right;
+  width: 370px;
   left: 0;
   padding-bottom: 15px;
-  margin-left: auto;
-  margin-right: auto;
+  padding-left: 25px;
 
 }
 
@@ -48,19 +53,34 @@ body, input {
 
 h1{
   font-size: 35px;
+  font-weight: 800;
 }
 p {
   font-size: 20px;
+  line-height: 28px;
+
 }
 
 h2 {
   font-size: 24px;
+  font-weight: 700;
+
 }
 
 li, h2, ul {
-  line-height: 10px;
+  line-height: 20px;
 }
 
 br {
   line-height: 2px;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+a:hover {
+  color: white;
+  text-decoration: underline;
 }
