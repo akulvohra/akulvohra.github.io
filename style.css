@@ -11,7 +11,7 @@ body, html {
 }
 
 .main {
-  position: right;
+  position: left;
   width: 370px;
   left: 0;
   padding-bottom: 25px;
@@ -50,23 +50,24 @@ body, html {
 }
 
 h1{
-  font-size: 35px;
+  font-size: 31px;
   font-weight: 900;
+  padding-bottom: 15px;
 }
 p {
-  font-size: 20px;
-  line-height: 28px;
+  font-size: 17px;
+  line-height: 24px;
 
 }
 
 h2 {
-  font-size: 24px;
+  font-size: 20px;
   font-weight: 600;
 
 }
 
 li, h2, ul {
-  line-height: 20px;
+  line-height: 17px;
 }
 
 br {
