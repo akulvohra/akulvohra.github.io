@@ -11,12 +11,11 @@ body, html {
 }
 
 .main {
-  padding-top: 10px;
   position: left;
   width: 370px;
   left: 0;
   padding-bottom: 25px;
-  padding-left: 25px;
+  padding-left: 15px;
 
 }
 
