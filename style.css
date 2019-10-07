@@ -1,4 +1,3 @@
-
 body, input {
   color: white;
   -webkit-text-size-adjust: 100%;
@@ -11,11 +10,11 @@ body, html {
 }
 
 .main {
-  position: left;
+  position: center;
+  margin: auto;
   width: 390px;
   left: 0;
-  padding-bottom: 25px;
-  padding-left: 15px;
+  padding-bottom: 15px;
 
 }
 
