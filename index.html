@@ -3,26 +3,68 @@
   <head>
     <meta charset="utf-8">
     <title>Akul Vohra</title>
-    <meta name="viewport" content="width=800">
+    <meta name="viewport" content="width=600">
 
   </head>
   <style>
+  @import url('https://fonts.googleapis.com/css?family=Monoton&display=swap');
     body{
-      width: 750px;
+      width: 550px;
       margin-left: auto;
       margin-right: auto;
-      font-family: serif;
       -webkit-text-size-adjust: 100%;
       padding-left:20px;
       padding-right:20px;
     }
+    .container {
+      height: 170px;
+      position: relative;
+      border: 4px solid gray;
+      border-top-left-radius: 15px;
+      border-top-right-radius: 15px;
+
+    }
+    .lol{
+      position: relative;
+      border: 4px solid gray;
+      border-top: 0px;
+      border-bottom-left-radius: 15px;
+      border-bottom-right-radius: 15px;
+      padding-left: 20px;
+      padding-right: 20px;
+      padding-top: 5px;
+
+    }
+    .vertical-center {
+      margin: 0;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      -ms-transform: translate(-50%, -50%);
+      transform: translate(-50%, -50%);
+    }
+    a {
+      color: gray;
+    }
   </style>
   <body>
-    <u><h1 id="top">Akul Vohra</h1></u>
-    <h3>About</h3>
-    <p>I am a junior at Santa Clara High School, a Boy Scout, a past NLP intern at Naivea, and a coder for FIRST Tech Challenge Team 13216 Deja Vu. I am interested in pursuing data science, specifically computational linguistics and natural language processing, but I work on all types of projects that I find interesting. I like to compete in hackathons and have to date competed in 6. This is a portfolio website created to showcase projects that I've worked on. It is currently under construction, but I will be adding more very soon. </p>
+    <div class="container">
+  <div class="vertical-center">
+    <center><a href="https://akul.org/"><img src="https://i.imgur.com/j3rp44J.png" width=400px></a></center>
     <hr>
-    <h3> Projects</h3>
+    <center><h4><a href="https://akul.org"> About</a> | <a href="https://akul.org/projects">Projects</a> </h4></center>
+  <hr>
+  </div>
+</div>
+<div class="lol">
+  <u><h3>About</h3></u>
+  <p>I am a junior at Santa Clara High School, a Boy Scout, a past NLP intern at Naivea, and a coder for FIRST Tech Challenge Team 13216 Deja Vu. I am interested in pursuing data science, specifically computational linguistics and natural language processing, but I work on all types of projects that I find interesting. I like to compete in hackathons and have competed in 6. </p>
+
+</div>
+
+    <!--
+<hr>
+    <u><h3> Projects</h3></u>
     <p>Here are some projects I've worked on either for hackatons or on the side: </p>
     <ul>
       <li><p>Mind+: This was a project created for OmniHacks 2019. The idea for this project was to create a platform in which those with degrading mental ability due to age or other brain injury could use various digital mind exercises to keep their mind "sharp". My team implemented a matching task to affirm short term memory as well reaction time for hand eye coordination and dexterity. Backend built with: Python, Flask, SQLAlchemy. Frontend: HTML, CSS, JS. <i>[<a href="https://devpost.com/software/mind" target="_blank">Devpost Submission</a>] [<a href="https://mindplus.herokuapp.com" target="_blank">Project Website</a>]</i></p></li>
@@ -39,13 +81,17 @@
     </ul>
     <hr>
 
-    <!--<h3>Links</h3>
+    <h3>Links</h3>
     <ul>
-      <li> contact|at|akul|dot|org</li>
+      <li>Email</li>
+      <li>Github</li>
+      <li>Devpost</li>
+      <li>LinkedIn</li>
     </ul>
 
-    <hr>-->
-    <p>&copy <a href="https://akul.org">Akul Vohra</a> 2019</p>
+    <hr>
+    -->
+    <p>&copy Akul Vohra 2019</p>
 
   </body>
 </html>
