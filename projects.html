@@ -8,6 +8,8 @@
   </head>
   <style>
   @import url("https://use.typekit.net/vzf2fex.css");
+  @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700;800&display=swap');
+
     body{
       width: 550px;
       margin-left: auto;
@@ -16,37 +18,47 @@
       padding-left:20px;
       padding-right:20px;
       color: #A9A9A9			;
-      background-color: black;
+      background-color: #000000;
+      font-family: 'Open Sans', sans-serif;
+
     }
     .container {
       margin-top: 20px;
       height: 50px;
       position: relative;
-      border: 1px solid #A9A9A9			;
       padding-top: 10px;
+      border-top-left-radius: 20px;
+      border-top-right-radius: 20px;
+      border-bottom: 1px solid #2F3336;
+      background-color: #15181C;
+
     }
     .lol{
       position: relative;
-      border: 1px solid #A9A9A9			;
       border-top: 0px;
       padding-left: 20px;
       padding-right: 20px;
       padding-top: 5px;
       margin-bottom: 20px;
+      border-bottom-left-radius: 20px;
+      border-bottom-right-radius: 20px;
+      background-color: #15181C;
+      padding-bottom: 5px;
+
 
 
     }
     .lol2{
       position: relative;
-      border: 1px solid #A9A9A9			;
       border-top: 0px;
       padding-left: 20px;
       padding-right: 20px;
       padding-top: 0.1px;
       height: 50px;
+      background-color: #15181C;
+      border-bottom: 0.5px solid #2F3336;
+
     }
-
-
 
     .vertical-center {
       margin: 0;
@@ -56,11 +68,24 @@
       -ms-transform: translate(-50%, -50%);
       transform: translate(-50%, -50%);
     }
+    p {
+      color: #596067;
+      font-size: 16px;
+    }
     a {
-      color: 		#ED9121	;
+      color: 		#14a656	;
+      font-family: 'Open Sans', sans-serif;
+      font-size: 14px;
+    }
+    h1 {
+      color: white;
+      font-family: 'Open Sans', sans-serif;
+      font-size: 28px;
+    }
+    span {
+      font-size: 14px;
     }
   </style>
-
   <body>
     <div class="container">
   <div class="vertical-center">
@@ -68,7 +93,9 @@
 </div>
 </div>
 <div class="lol2">
-  <center><p><a href="https://akul.org/"> About</a> | <a href="https://akul.org/projects">Projects</a>  | <a href="https://github.com/akulvohra"target="_blank">Github</a>  | <a href="https://devpost.com/akulvohra"target="_blank">Devpost</a>   </p></center>
+  <div class="vertical-center">
+  <center><span><a href="https://akul.org/"> About</a> | <a href="https://akul.org/projects">Projects</a>  | <a href="https://akul.org/links">Links</a></span> </center>
+</div>
 </div>
 <div class="lol">
   <!--
@@ -76,11 +103,9 @@
   <p>I am a junior at Santa Clara High School, a Boy Scout, a past NLP intern at Naivea, and a coder for FIRST Tech Challenge Team 13216 Deja Vu. I am interested in pursuing data science, specifically computational linguistics and natural language processing, but I work on all types of projects that I find interesting. I like to compete in hackathons and have competed in 6. </p>
 
 -->
-
-    <u><h3> Projects</h3></u>
-    <p>Here are some projects I've worked on either for hackatons or on the side: </p>
+    <p>Projects I've worked on either for hackatons or on the side: </p>
     <ul>
-      <li><p>NaturalLanguageRecommendations: This was a project created for the 2019-20 #TFWorld 2.0 Challenge. The idea for this project was to create a new scientific paper search algorithm that would be capable of finding more relevant results than those that are already on the market. We used various different libraries and tools to complete this project. We used 1.3 million papers from Semantic Scholar's <a href="https://api.semanticscholar.org/corpus/" target="_blank">Open Corpus API</a> as data. We used <a href="https://www.kdnuggets.com/2018/04/implementing-deep-learning-methods-feature-engineering-text-data-cbow.html" target="_blank">word2Vec CBOW</a> to create citation vectors and labels. HuggingFace's TF2.0 implementation of <a href="https://github.com/huggingface/transformers" target="_blank">BERT</a> was used to create our model, with the citation vectors as the labels. A team member even made a library that allowed us to do faster similarity searches on TPU's called  <a href="https://pypi.org/project/tpu-index/" target="_blank">TPU-Index</a>. Our process, as well as the code behind it is explained in depth in our GitHub repository. My role, in particular, was designing the process for filtering and pruning the data. All in all, the project was successful and especially showed its capabilities when looking for papers in niche topics given a paper abstract. Demos and notebooks can be found in the GitHub or the bottom of the DevPost submission. <i>[<a href="https://devpost.com/software/naturallanguagerecommendations" target="_blank">Devpost Submission</a>] [<a href="https://github.com/Santosh-Gupta/NaturalLanguageRecommendations" target="_blank">GitHub</a>] [<a href="https://www.youtube.com/watch?v=NU1mkKrSdtw" target="_blank">Video Demo</a>] </i></p></li>
+      <li><p>Natural Language Recommendations: This was a project created for the 2019-20 #TFWorld 2.0 Challenge. The idea for this project was to create a new scientific paper search algorithm that would be capable of finding more relevant results than those that are already on the market. We used various different libraries and tools to complete this project. We used 1.3 million papers from Semantic Scholar's <a href="https://api.semanticscholar.org/corpus/" target="_blank">Open Corpus API</a> as data. We used <a href="https://www.kdnuggets.com/2018/04/implementing-deep-learning-methods-feature-engineering-text-data-cbow.html" target="_blank">word2Vec CBOW</a> to create citation vectors and labels. HuggingFace's TF2.0 implementation of <a href="https://github.com/huggingface/transformers" target="_blank">BERT</a> was used to create our model, with the citation vectors as the labels. A team member even made a library that allowed us to do faster similarity searches on TPU's called  <a href="https://pypi.org/project/tpu-index/" target="_blank">TPU-Index</a>. Our process, as well as the code behind it is explained in depth in our GitHub repository. My role, in particular, was designing the process for filtering and pruning the data. All in all, the project was successful and especially showed its capabilities when looking for papers in niche topics given a paper abstract. Demos and notebooks can be found in the GitHub or the bottom of the DevPost submission. <i>[<a href="https://devpost.com/software/naturallanguagerecommendations" target="_blank">Devpost Submission</a>] [<a href="https://github.com/Santosh-Gupta/NaturalLanguageRecommendations" target="_blank">GitHub</a>] [<a href="https://www.youtube.com/watch?v=NU1mkKrSdtw" target="_blank">Video Demo</a>] </i></p></li>
 
 
       <li><p>Mind+: This was a project created for OmniHacks 2019. The idea for this project was to create a platform in which those with degrading mental ability due to age or other brain injury could use various digital mind exercises to keep their mind "sharp". My team implemented a matching task to affirm short term memory as well reaction time for hand eye coordination and dexterity. Backend built with: Python, Flask, SQLAlchemy. Frontend: HTML, CSS, JS. <i>[<a href="https://devpost.com/software/mind" target="_blank">Devpost Submission</a>] [<a href="https://mindplus.herokuapp.com" target="_blank">Project Website</a>]</i></p></li>
