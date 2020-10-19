@@ -8,7 +8,6 @@
   </head>
   <style>
   @import url("https://use.typekit.net/vzf2fex.css");
-  @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700;800&display=swap');
 
     body{
       width: 550px;
@@ -21,94 +20,84 @@
       padding-right:20px;
       color: #A9A9A9			;
       background-color: #000000;
-      font-family: 'Open Sans', sans-serif;
-
-    }
-    .container {
-      margin-top: 20px;
-      height: 50px;
-      position: relative;
-      padding-top: 10px;
-      border-top-left-radius: 20px;
-      border-top-right-radius: 20px;
-      border-bottom: 2px solid #2F3336;
-      background-color: #15181C;
-
-    }
-    .lol{
-      position: relative;
-      border-top: 0px;
-      padding-left: 20px;
-      padding-right: 20px;
-      padding-top: 5px;
-      margin-bottom: 20px;
-      border-bottom-left-radius: 20px;
-      border-bottom-right-radius: 20px;
-      background-color: #15181C;
-      padding-bottom: 5px;
-
-
-
-    }
-    .lol2{
-      position: relative;
-      border-top: 0px;
-      padding-left: 20px;
-      padding-right: 20px;
-      padding-top: 0.1px;
-      height: 50px;
-      background-color: #15181C;
-      border-bottom: 2px solid #2F3336;
-
-    }
-
-    .vertical-center {
-      margin: 0;
-      position: absolute;
-      top: 50%;
-      left: 50%;
-      -ms-transform: translate(-50%, -50%);
-      transform: translate(-50%, -50%);
+      font-family: "Inter",sans-serif;
     }
     p {
-      color: #687078;
+      color: #A9A9A9;
       font-size: 16px;
+      line-height: 22px;
     }
     a {
-      color: 		#447394	;
-      font-family: 'Open Sans', sans-serif;
+      color: #3C97FF;
       font-size: 16px;
     }
     h1 {
       color: white;
-      font-family: 'Open Sans', sans-serif;
       font-size: 28px;
+      background: repeating-linear-gradient( 20deg, #3C97FF, #3C97FF 10px, #097CFF 10px, #097CFF 20px );
+      padding: 0 10px;
+      border-radius: 0px;
+      width: 146px;
     }
-    span {
-      font-size: 14px;
+    .red {
+      color: white;
+      font-weight: bolder;
+      font-size: 20px;
+      background: repeating-linear-gradient( -20deg, #CA0000, #CA0000 10px, #FD0001 10px, #FD0001 20px );
+      padding: 0 10px;
+      border-radius: 0px;
+      width: 112.6px;
     }
+    .green {
+      color: white;
+      font-weight: bolder;
+      font-size: 20px;
+      background: repeating-linear-gradient( 20deg, #046526, #046526 10px, #069638 10px, #069638 20px );
+      padding: 0 10px;
+      border-radius: 0px;
+      width: 152.4px;
+    }
+}
+
+
   </style>
   <body>
-    <div class="container">
-  <div class="vertical-center">
-<h1>Akul Vohra</h1>
-</div>
-</div>
-<div class="lol2">
-  <div class="vertical-center">
-  <center><span><a href="https://akul.org/"> About</a> | <a href="https://akul.org/projects">Projects</a>  | <a href="https://akul.org/links">Links</a></span> </center>
-</div>
-</div>
-<div class="lol">
-  <!--
-  <u><h3>About</h3></u>
-  <p>I am a junior at Santa Clara High School, a Boy Scout, a past NLP intern at Naivea, and a coder for FIRST Tech Challenge Team 13216 Deja Vu. I am interested in pursuing data science, specifically computational linguistics and natural language processing, but I work on all types of projects that I find interesting. I like to compete in hackathons and have competed in 6. </p>
+<h1 class="dangerzone">Akul Vohra</h1>
+<hr>
+<p>I'm a senior at Santa Clara High School, a Boy Scout pursuing the Eagle rank, a coder for my school's robotics team, and a former intern (2x). <br><br> Last summer, I interned at the Aviation Systems Division at NASA Ames doing analysis on commercial aviation and detailing a proposal for a future aviation concept involving airships and drone traffic management. <br><br> I'm interested in data science and computational linguistics and NLP, but I like to work on all types of projects that I find interesting. </p>
 
--->
+<hr>
 
-<p>I'm a senior at Santa Clara High School, a Boy Scout pursuing the Eagle rank, a coder for my school's robotics team, and a former intern (2x). Last summer, I interned at the Aviation Systems Division at NASA Ames doing analysis on commercial aviation and detailing a proposal for a future aviation concept involving airships and drone traffic management. I'm interested in pursuing data science, specifically computational linguistics and NLP, but I like to work on all types of projects that I find interesting. </p>
+<h2 class="red"> My Projects </h2>
+<ul>
+  <li><p>Natural Language Recommendations<br>A recommender system for math, physics, CS, and engineering research papers from Semantic Scholar based on base paper abstracts<br>[<a href="https://devpost.com/software/naturallanguagerecommendations" target="_blank">Devpost Submission</a>] [<a href="https://github.com/Santosh-Gupta/NaturalLanguageRecommendations" target="_blank">GitHub</a>] [<a href="https://www.youtube.com/watch?v=NU1mkKrSdtw" target="_blank">Video Demo</a>] </i></p></li>
 
-</div>
 
+  <li><p>Mind+<br>A webapp platform for people with aging mental ability or brain injury to "sharpen" their minds thanks to neuroplasticity <br>[<a href="https://devpost.com/software/mind" target="_blank">Devpost Submission</a>] [<a href="https://mindplus.herokuapp.com" target="_blank">Project Website</a>]</i></p></li>
+
+  <li><p>Glass Chemical Detection<br>A starter project comparing logistic regression and KNN classifiers for the task of classifying glass based on chemical composition<br>[<a href="https://github.com/akulvohra/BayAIGlassChemicals"target="_blank">GitHub</a>]</p></li>
+
+  <li><p>Sentwiment<br>Sentiment analysis webapp for tweets using Twitter's API and TextBlob, outputs a json file for all tweets with a keyword within the past hour<br>[<a href="https://github.com/akulvohra/Sentwiment"target="_blank">GitHub</a>] </p></li>
+  <li>
+    <p>
+      Historical Tours<br>3D virtual tour of the ancient city Jerusalem, includes audio stops during which some information about what is around is given to the user<br>[<a href="https://devpost.com/software/historicaltours"target="_blank">Devpost Submission</a>] [<a href="https://github.com/akulvohra/HistoricalTours"target="_blank">GitHub</a>]</i>
+    </p>
+  </li>
+</ul>
+<hr>
+<h2 class="green"> Links & Contact </h2>
+<ul>
+  <li><p>GitHub: <a href="https://github.com/akulvohra">https://github.com/akulvohra</a></p>
+  </li>
+  <li><p>DevPost: <a href="https://devpost.com/akulvohra">https://devpost.com/akulvohra</a></p>
+  </li>
+  <li><p>LinkedIn: <a href="https://linkedin.com/in/akulvohra">https://linkedin.com/in/akulvohra</a></p>
+  </li>
+  <li><p>Twitter: <a href="https://twitter.com/akulvohra">https://twitter.com/akulvohra</a></p>
+  </li>
+  <li><p>Email: <a href="mailto:contact@akul.org">contact@akul.org</a></p>
+  </li>
+</ul>
+<p> Feel free to contact me via email or Twitter DMs
   </body>
 </html>
